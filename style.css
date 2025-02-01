@@ -1,0 +1,187 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('1.jpeg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#search-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #45a049;
+}
+
+section {
+    padding: 60px 20px 20px;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    /* No specific background color for home section */
+}
+
+#shop {
+    /* No specific background color for shop section */
+}
+
+#contact {
+    /* No specific background color for contact section */
+}
+
+#cart {
+    /* No specific background color for cart section */
+}
+
+.product {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#message-box {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#cart-items li button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cart-items li button:hover {
+    background-color: #ff1a1a;
+}
+
+/* Discounts and Offers Section */
+.discounts-offers {
+    margin-top: 40px;
+}
+
+.discounts-offers h2 {
+    text-align: center;
+    color: #333;
+}
+
+.offer {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.offer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.offer h3 {
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.offer p {
+    color: #333;
+}
+
+.offer .discounted-price {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.offer del {
+    color: #888;
+}

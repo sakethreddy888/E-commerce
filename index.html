@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" id="home-icon"><i class="fas fa-home"></i></a></li>
+            <li><a href="#shop" id="shop-icon"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="#contact" id="contact-icon"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="#cart" id="cart-icon"><i class="fas fa-shopping-cart"></i></a></li>
+            <!-- Search Bar -->
+            <li class="search-bar">
+                <input type="text" placeholder="Search products..." id="search-input">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Message Box for Notifications -->
+    <div id="message-box"></div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Home</h1>
+        <p>Welcome to our e-commerce store!</p>
+
+        <!-- Product Details in Home Section -->
+        <div class="product">
+            <img src="shirt.jpeg" alt="Product Image">
+            <h2>Product Name</h2>
+            <p>Product Description</p>
+            <p>$19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Discounts and Offers Section -->
+        <div class="discounts-offers">
+            <h2>Discounts and Offers</h2>
+            <div class="offer">
+                <img src="kitchen accesers.jpeg" alt="Discount Product 1">
+                <h3>Special Offer: 20% Off</h3>
+                <p>Get 20% off on this amazing product!</p>
+                <p><del>$50.00</del> <span class="discounted-price">$40.00</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="offer">
+                <img src="pant 1.jpeg" alt="Discount Product 2">
+                <h3>Limited Time Offer: Buy 1 Get 1 Free</h3>
+                <p>Buy one product and get another one absolutely free!</p>
+                <p><del>$30.00</del> <span class="discounted-price">$30.00 (Buy 1 Get 1 Free)</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="offer">
+                <img src="electronics.jpeg" alt="Discount Product 3">
+                <h4>special offer: 40% off</h4>
+                <p>Get 40% off on this amazing product!</p>
+                <p><del>$200.00</del> <span class="discounted-price">$120.00 </span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <h1>Shop</h1>
+        <!-- Product Details in Shop Section -->
+        <div class="product">
+            <img src="trimmer.jpeg" alt="Product Image">
+            <h2>trimmer</h2>
+            <p>Good in quality</p>
+            <p>$19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="toolkit.jpeg" alt="Product Image">
+            <h2>toolkit</h2>
+            <p>Best in use works</p>
+            <p>$99.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="t shirt.jpeg" alt="Product Image">
+            <h3>t shirt</h3>
+            <p>Ployster type</p>
+            <p>$12.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="phone.jpeg" alt="Product Image">
+            <h4>phone</h4>
+            <p> good quality</p>
+            <p>$999.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="makeup kit.jpeg" alt="Product Image">
+            <h5>makeup kit</h5>
+            <p>natural products</p>
+            <p>$54.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="laptop.jpeg" alt="Product Image">
+            <h6>laptop</h6>
+            <p>ram 56gb intelprocesser</p>
+            <p>$9990.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="electronics.jpeg" alt="Product Image">
+            <h7>electronics</h7>
+            <p> Good</p>
+            <p>$500.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="kitchen accesers.jpeg" alt="Product Image">
+            <h8>kitchen accesers</h8>
+            <p>accesers</p>
+            <p>$170.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="dress.jpeg" alt="Product Image">
+            <h9>dress</h9>
+            <p>Best price</p>
+            <p>$29.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="pant 2.jpeg" alt="Product Image">
+            <h10>pant</h10>
+            <p>pure cotton</p>
+            <p>$40.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Contact us at: pants @gmail.com</p>
+        <h2>Contact</h2>
+        <p>Contact us at: dress@gamil.com</p>
+        <h3>Contact</h3>
+        <p>Contact us at: electronic@gmail.com</p>
+        <h4>Contact</h4>
+        <p>Contact us at: shirts@gmail.com</p>
+        <h5>Contact</h5>
+        <p>Contact us at: laptop accers@gmail.com</p>
+        
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h1>Cart</h1>
+        <ul id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
